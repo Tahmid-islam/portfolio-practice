@@ -1,0 +1,101 @@
+body {
+  font-family: "Source Serif Pro", serif;
+  margin: 0px;
+}
+
+#home {
+  background-color: #ff9063;
+  padding-top: 30px;
+}
+
+.home {
+  background-color: #ff9063;
+  display: flex;
+  padding-bottom: 30px;
+}
+navbar {
+  margin: 0px;
+  padding-left: 35%;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+}
+navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  position: sticky;
+}
+
+.picture-section {
+  width: 50%;
+  padding-top: 5%;
+}
+img {
+  height: 95%;
+  width: 60%;
+  padding-left: 20%;
+  padding-bottom: 10px;
+}
+
+.home-description {
+  width: 50%;
+  padding-top: 10%;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+.home-description h4 {
+  color: black;
+  font-weight: bold;
+}
+.expertise-col {
+  display: flex;
+  text-align: justify;
+}
+
+.box-model {
+  width: 50%;
+  margin: 1px solid red;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box-model h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.expertise p {
+  text-align: justify;
+  font-family: 20px;
+  box-shadow: 10px 10px 40px gray;
+  border-left: 15px solid;
+  margin: 7px solid;
+  padding: 30px;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+
+.expertise {
+  padding: 10%;
+  padding-top: 0px;
+}
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
